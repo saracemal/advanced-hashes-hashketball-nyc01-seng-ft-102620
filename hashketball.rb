@@ -185,6 +185,7 @@ def player_stats(input)
           if input == player[:player_name]
             player.delete(:player_name)
             return player
+            binding.pry
           end
         end
       end
